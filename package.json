@@ -2,7 +2,6 @@
     "name": "datalayer-demo",
     "version": "1.0.0",
     "description": "",
-    "main": "index.html",
     "private": true,
     "scripts": {
         "start": "parcel index.html --open",
@@ -17,7 +16,7 @@
         "shx": "^0.3.3"
     },
     "dependencies": {
-        "parcel-bundler": "^1.12.5",
+        "parcel": "^2.0.0-rc.0",
         "push-dir": "^0.4.1"
     }
 }
