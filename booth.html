@@ -8,6 +8,22 @@
     <title>Document</title>
     <!-- Google Tag Manager -->
     <script>
+        // parse parameters
+        const parsedUrl = new URL(window.location.href);
+        const boothId = parsedUrl.searchParams.get("id");
+
+        // dataLayer initialization
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'pageCategory': 'booth',
+            'booth': {
+                'name': 'booth' + boothId,
+                'id': boothId
+            }
+        });
+        console.log('pushed');
+    </script>
+    <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({

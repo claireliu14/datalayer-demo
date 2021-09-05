@@ -15,7 +15,7 @@ const buildBoothCard = booth => {
     button.innerHTML = booth.boothName;
     button.onclick = () => {
         console.log(booth.id);
-        window.location.href = 'booth.html';
+        window.location.href = 'booth.html?id=' + booth.id;
     };
     div.setAttribute("class", "card");
 };
