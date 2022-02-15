@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACI,sBAAuB,CACvB,SAAU,CACV,WACJ,CAEA,MACI,WAAY,CACZ,iBAAkB,CAClB,kBACJ","file":"styles.3b0d3dbd.css","sourceRoot":"..","sourcesContent":["body {\n    font-family: sans-serif;\n    width: 50%;\n    margin: auto;\n}\n\n.card {\n    margin: 15px;\n    text-align: center;\n    align-items: center;\n}"]}
